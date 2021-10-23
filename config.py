@@ -7,7 +7,8 @@ class DevConfig(BaseConfig):
 
 
 class ProdConfig(BaseConfig):
-    pass
+    ENV = "production"
+    DEBUG = False
 
 
 config_map = {
